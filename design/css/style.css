@@ -4,7 +4,7 @@ body {
 
 /* Mobile Design */
 
-@media (min-width: 375px, max-width: 812px) {
+@media (min-width: 375px) {
     body {
         background-color: white;
         border-radius: 10px;
