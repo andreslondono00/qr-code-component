@@ -1,10 +1,11 @@
 html {
     background-color: hsl(212, 45%, 89%);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
-/* Mobile Design */
 
 body {
     background-color: white;
@@ -13,17 +14,17 @@ body {
 }
 
 .container img {
-    border-radius: 10px;
-    width: 100%
+    border-radius: 25px;
+    width: 90%;
+    padding: 15px;
 }
 
-@media (min-width: 375px) and (max-height: 812px) {
+@media screen and (min-width: 1440px) {
     body {
-    background-position: center, center;
+    max-width: 300px;
+    margin: 256px;
     }
 }
-
-/* Desktop Desingn */
 
 .attribution { 
   font-size: 12px;
@@ -37,11 +38,15 @@ body {
 h1 {
     font-family: Outfit;
     font-weight: 700;
+    font-size: 22px;
     margin: 16px;
+    text-align: center;
 }
 
 p {
     font-family: Outfit;
     font-weight: 400;
-    color: hsl(216, 15%, 48%)
+    font-size: 16px;
+    color: hsl(216, 15%, 48%);
+    text-align: center;
 }
